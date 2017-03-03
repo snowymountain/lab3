@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #include <string.h>
-
+#define LENGTH 256
 
 
 
@@ -14,7 +14,7 @@ int main()
 
 	FILE *in, *out;
 
-	char inputString[256];
+	char inputString[LENGTH];
 
 	int length;
 
@@ -38,7 +38,7 @@ int main()
 
 	{
 
-		fgets(inputString, 256, in);
+		fgets(inputString, LENGTH, in);
 
 		
 
